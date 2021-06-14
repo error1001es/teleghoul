@@ -1,12 +1,13 @@
 # Я - Гуль (бот), теперь работает в чатах
+
+![Работа бота](https://github.com/error1001es/teleghoul/blob/main/screenshots/bot_work.png)
+
 ## Отблагодарить автора за проделанную работу можно [здесь](https://www.donationalerts.com/r/ponyal)
 Сбер: 5469450014457196<br>
 Тинькофф: 5536913879572820<br>
 https://www.donationalerts.com/r/ponyal
 
 **Помощь с установкой [тут](#помощь)**
-
-![Работа бота](https://github.com/error1001es/teleghoul/blob/main/screenshots/bot_work.png)<br>
 
 ___
 ## Установка на Андроид
