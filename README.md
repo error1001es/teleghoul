@@ -41,11 +41,10 @@ ___
 	git clone https://github.com/error1001es/teleghoul.git
 ___
 ## Запуск
-*Вводите*
+*Вводите* и ждите пока бот запросит номер телефона, привязанный к **ВАШЕМУ** телеграму
 
 	python teleghoul/index.py
 	
-Бот запросит номер телефона, привязанный к **ВАШЕМУ** телеграму<br>
 В **ТЕЛЕГРАМ** придёт код, введите его и бот заработает
 
 ![Запуск](https://github.com/error1001es/teleghoul/blob/main/screenshots/startup.png)<br>
