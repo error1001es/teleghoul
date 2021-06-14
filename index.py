@@ -38,10 +38,10 @@ def ghoul_handler(client, message):
 @client.on_message(filters.command('ghoul-c', prefixes=['/', '!', '.']) & filters.me)
 def ghoul_handler(client, message):
     i = 1000
-    while i > 27:
+    while i > 62:
         try:
             text = f'{i} - 7 = {i-7}'
-            for j in range(1,5):
+            for j in range(1,10):
                 text += f'\n{i-7*j} - 7 = {i-7*(j+1)}'
             message.edit_text(f'`{text}`')
             sleep(sleep_time_ghoul)
