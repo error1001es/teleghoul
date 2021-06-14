@@ -35,12 +35,30 @@ def ghoul_handler(client, message):
         client.send_message(message.chat.id, end_message)
 
 
+@client.on_message(filters.command('ghoul-c', prefixes=['/', '!', '.']) & filters.me)
+def ghoul_handler(client, message):
+    i = 1000
+    while i > 27:
+        try:
+            text = f'{i} - 7 = {i-7}'
+            for j in range(1,5):
+                text += f'\n{i-7*j} - 7 = {i-7*(j+1)}'
+            message.edit_text(f'`{text}`')
+            sleep(sleep_time_ghoul)
+        except FloodWait as e:
+            sleep(e.x)
+
+        i -= 7
+
+    if(end_message != ''):
+        client.send_message(message.chat.id, end_message)
+
 @client.on_message(filters.command('ghoul', prefixes=['/', '!', '.']) & filters.me)
 def ghoul_handler(_, message):
     i = 1000
     while i > 0:
         try:
-            message.edit_text(str(i)+' - 7 = '+str(i-7))
+            message.edit_text(f'{i} - 7 = {i-7}')
         except FloodWait as e:
             sleep(e.x)
         i -= 7    
