@@ -33,7 +33,7 @@ ___
 	git clone https://github.com/error1001es/teleghoul.git
 ___
 ## Запуск
-	python ghoul-telegram/index.py
+	python teleghoul/index.py
 
 Затем вводите номер телефона и код, присланный телеграмом<br>
 Если в консоль вывелось `Ты - гуль`, то все работает<br>
