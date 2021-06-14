@@ -1,6 +1,6 @@
 # Я - Гуль (бот), новая версия
 ### Теперь работает в чатах
-![Работа бота](https://github.com/error1001es/teleghoul/blob/main/bot_work.png)<br>
+![Работа бота](https://github.com/error1001es/teleghoul/blob/main/screenshots/bot_work.png)<br>
 ## Установка на Андроид
 Скачиваем приложение [Termux](https://play.google.com/store/apps/details?id=com.termux) в Play Market<br>
 Открываем и пишем команды снизу поочерёдно<br>
@@ -38,7 +38,7 @@ ___
 	
 Затем вводите номер телефона и код, присланный телеграмом, как на картинке<br>
 
-![Запуск](https://github.com/error1001es/teleghoul/blob/main/teleghoul.png)<br>
+![Запуск](https://github.com/error1001es/teleghoul/blob/main/screenshots/startup.png)<br>
 Пишите `Я гуль` кому-нибудь, да начнется спам!<br>
 *Спамить лучше сначала одному человеку, а потом другому*<br>
 Если возникли ошибки, кидайте скрины в [ЛС](https://t.me/ghoul4s)
