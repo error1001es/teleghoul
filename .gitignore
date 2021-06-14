@@ -1,0 +1,4 @@
+!.gitignore
+ghoul-session.session
+ghoul-session.session-journal
+__pycache__

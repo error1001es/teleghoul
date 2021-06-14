@@ -39,4 +39,3 @@ ___
 ___
 ## Пожертвовать
 Нажми [сюда](https://www.donationalerts.com/r/ponyal), чтобы пожертвовать)	
-"# teleghoul" 
