@@ -1,6 +1,10 @@
 # Я - Гуль (бот), новая версия
 ### Теперь работает в чатах
 ![Работа бота](https://github.com/error1001es/teleghoul/blob/main/screenshots/bot_work.png)<br>
+
+**После установки перейдите в раздел <<Запуск>>**
+	
+___
 ## Установка на Андроид
 Скачиваем приложение [Termux](https://play.google.com/store/apps/details?id=com.termux) в Play Market<br>
 Открываем и пишем команды снизу поочерёдно<br>
