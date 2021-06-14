@@ -2,10 +2,10 @@
 
 ![Работа бота](https://github.com/error1001es/teleghoul/blob/main/screenshots/bot_work.png)
 
-## Отблагодарить автора за проделанную работу можно [здесь](https://www.donationalerts.com/r/ponyal)
+## Отблагодарить автора за проделанную работу можно [здесь](https://donate.stream/4sadly)
 Сбер: 5469450014457196<br>
 Тинькофф: 5536913879572820<br>
-https://www.donationalerts.com/r/ponyal
+https://donate.stream/4sadly
 
 **Помощь с установкой [тут](#помощь)**
 
