@@ -35,7 +35,7 @@ ___
 ## Запуск
 	python teleghoul/index.py
 
-![Запуск](https://github.com/error1001es/teleghoul/blob/main/teleghoul.png)
+![Запуск](https://github.com/error1001es/teleghoul/blob/main/teleghoul.png)<br>
 Затем вводите номер телефона и код, присланный телеграмом<br>
 Если в консоль вывелось `Ты - гуль`, то все работает<br>
 Пишите `Я гуль` кому-нибудь, да начнется спам!<br>
