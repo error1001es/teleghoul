@@ -22,7 +22,7 @@ ___
 	pip install pyrogram
 *Клонируем репозиторий*
 
-	git clone https://github.com/error1001es/teleghoulgit
+	git clone https://github.com/error1001es/teleghoul.git
 
 ___
 ## Установка на Пк
