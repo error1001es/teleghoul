@@ -19,7 +19,7 @@ client.stop()
 print('Бот запущен, теперь ты - Гуль')
 
 
-@client.on_message(filters.command('я_гуль', prefixes=['/', '!', '.']) & filters.me)
+@client.on_message(filters.command('ghoul-spam', prefixes=['/', '!', '.']) & filters.me)
 def ghoul_handler(client, message):
     i = 1000
     while i > 0:
@@ -35,8 +35,8 @@ def ghoul_handler(client, message):
         client.send_message(message.chat.id, end_message)
 
 
-@client.on_message(filters.command('я гуль', prefixes=['/', '!', '.']) & filters.me)
-def ghoul_handler(client, message):
+@client.on_message(filters.command('ghoul', prefixes=['/', '!', '.']) & filters.me)
+def ghoul_handler(_, message):
     i = 1000
     while i > 0:
         try:
@@ -47,18 +47,19 @@ def ghoul_handler(client, message):
         sleep(sleep_time)        
 
     if(end_message != ''):
-        client.send_message(message.chat.id, end_message)
+        message.edit_text(end_message)
 
 
 @client.on_message(filters.command('words', prefixes=['/', '!', '.']) & filters.me)
 def words_handler(client, message):
     words = custom()
     total = 0
+    message.delete()
     progress = client.send_message(message.chat.id, '`Загружено 0 сообщений...`')
     for message in client.iter_history(message.chat.id, limit):
         if(message.text):
             splited_text = message.text.split()
-        if('Счетчик_слов' not in splited_text and '/words' not in splited_text):
+        if('Счетчик_слов' not in splited_text):
             total += 1
             if total % 200 == 0:
                 progress.edit_text(f'`Загружено {total} сообщений...`')
@@ -108,7 +109,7 @@ async def music_handler(_, message):
                 message.reply_to_message.text or message.reply_to_message.caption
             )
         elif not message.reply_to_message and len(cmd) == 1:
-            await message.edit('Give a song name')
+            await message.edit('Напишите имя музыки')
             await asyncio.sleep(2)
             await message.delete()
             return
@@ -139,12 +140,12 @@ async def music_handler(_, message):
             # Удаляем сообщение из избранного
             await client.delete_messages('me', saved.message_id)
         except TimeoutError:
-            await message.edit('That didn\'t work out')
+            await message.edit('Ошибка, пожалуйста, попробуйте позже')
             await asyncio.sleep(2)
         await message.delete()
     except Exception as e:
         print(e)
-        await message.edit('`Failed to find song`')
+        await message.edit('`Не удалось найти песню`')
         await asyncio.sleep(2)
         await message.delete()
 
