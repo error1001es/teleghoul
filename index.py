@@ -20,5 +20,5 @@ async def normal_handler(client, message):
             i -= 7*step
             if(end_message != ''):
                 await client.send_message(message.chat.id, end_message)  
-                
-                client.run()
+
+client.run()
