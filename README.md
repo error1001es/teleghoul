@@ -3,6 +3,7 @@
 *Или банковским переводом*<br>
 **Сбер: 5469450014457196**<br>
 **Тинькофф: 5536913879572820**<br>
+https://www.donationalerts.com/r/ponyal
 ___
 ![Работа бота](https://github.com/error1001es/teleghoul/blob/main/screenshots/bot_work.png)<br>
 
