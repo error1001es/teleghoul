@@ -19,7 +19,7 @@ ___
 *Ставим git и python*
 
 	apt-get install git python
-Если спросит `Do you want to continue? [Y/n]` отвечаем `Y` и продолжаем дальше<br>
+Если спросит `Do you want to continue? [Y/n]` отвечаем `Y` и продолжаем<br>
 *Устанавливаем pyrogram*
 
 	pip install pyrogram
