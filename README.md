@@ -5,7 +5,8 @@
 ## Отблагодарить автора за проделанную работу можно [здесь](https://donate.stream/4sadly)
 Сбер: 5469450014457196<br>
 Тинькофф: 5536913879572820<br>
-https://donate.stream/4sadly
+[Киви](https://donate.qiwi.com/payin/4sadly)
+[Сервис донатов](https://donate.stream/4sadly)
 
 **Помощь с установкой [тут](#помощь)**
 
