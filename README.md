@@ -1,5 +1,5 @@
 # Я - Гуль (бот), теперь работает в чатах
-## Нажми [сюда](https://www.donationalerts.com/r/ponyal), чтобы пожертвовать) и поставь звездочку, пожалуйста
+## Нажми [сюда](https://www.donationalerts.com/r/ponyal), чтобы пожертвовать и поставь звездочку, пожалуйста!
 
 ___
 ![Работа бота](https://github.com/error1001es/teleghoul/blob/main/screenshots/bot_work.png)<br>
