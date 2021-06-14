@@ -8,8 +8,11 @@ ___
 ## Установка на Андроид
 Скачиваем приложение [Termux](https://play.google.com/store/apps/details?id=com.termux) в Play Market<br>
 Открываем и пишем команды снизу поочерёдно<br>
-**Для копирования команды нажмите на неё**
+
 ___
+
+#### Для копирования команды нажмите на неё
+
 *Обновляем*
 
 	apt-get update
@@ -28,9 +31,11 @@ ___
 ## Установка на Пк
 Скачиваем [git](https://git-scm.com/downloads) и [python](https://www.python.org/downloads/)<br>
 **При установке Python обязательно ставим галочку `Add to PATH`**<br>
-**Для копирования команды нажмите на неё**
 
 ___
+
+#### Для копирования команды нажмите на неё
+
 *Устанавливаем pyrogram*
 
 	pip install pyrogram
