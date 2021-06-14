@@ -1,4 +1,4 @@
-# Я - Гуль Бот, новая версия
+# Я - Гуль (бот), новая версия
 ### Теперь работает в чатах
 ## Установка на Андроид
 Скачиваем приложение [Termux](https://play.google.com/store/apps/details?id=com.termux) в Play Market<br>
