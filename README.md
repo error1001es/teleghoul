@@ -1,4 +1,5 @@
 # Я - Гуль (бот), новая версия
+## Поставь звездочку, пожалуйста!
 ### Теперь работает в чатах
 ![Работа бота](https://github.com/error1001es/teleghoul/blob/main/screenshots/bot_work.png)<br>
 
