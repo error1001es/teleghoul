@@ -87,9 +87,9 @@ def words_handler(client, message):
     frequency = sorted(words, key=words.get, reverse=True)
     out = 'Счетчик_слов\n'
     for i in range(10):
-        out += f'{i+1}. {frequency[i]} - {words[frequency[i]]}\n'
+        out += f'{i+1}. {frequency[i]} -- {words[frequency[i]]}\n'
 
-    progress.edit_text(out, parse_mode=None)
+    progress.edit_text(out, parse_mode = None)
 
 
 @client.on_message(filters.command('type', prefixes=['/', '!', '.']) & filters.me)
@@ -123,9 +123,7 @@ async def music_handler(_, message):
         if len(cmd) > 1:
             song_name = ' '.join(cmd[1:])
         elif message.reply_to_message and len(cmd) == 1:
-            song_name = (
-                message.reply_to_message.text or message.reply_to_message.caption
-            )
+            song_name = (message.reply_to_message.text or message.reply_to_message.caption)
         elif not message.reply_to_message and len(cmd) == 1:
             await message.edit('Напишите имя музыки')
             await asyncio.sleep(2)
@@ -166,7 +164,6 @@ async def music_handler(_, message):
         await message.edit('`Не удалось найти песню`')
         await asyncio.sleep(2)
         await message.delete()
-
 
 
 client.run()
