@@ -10,6 +10,8 @@ me = client.get_me()
 
 client.stop()
 
+print('Бот запущен, теперь ты - Гуль')
+
 @client.on_message(filters.text)
 async def normal_handler(client, message):
     if(message.text.lower() == start_command and message.from_user.id == me.id):
