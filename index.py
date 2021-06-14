@@ -16,9 +16,9 @@ async def normal_handler(client, message):
         i = 1000
         while i > 0:
             sleep(1/messages_per_second)
-            await client.send_message(message.chat.id, str(i)+' - 7 = '+str(i-7))
-            i -= 7
-        if(end_message != ''):
-            await client.send_message(message.chat.id, end_message)  
-       
-client.run()
+            await client.send_message(message.chat.id, str(i)+' - 7 = '+str(i-7*step))
+            i -= 7*step
+            if(end_message != ''):
+                await client.send_message(message.chat.id, end_message)  
+                
+                client.run()
