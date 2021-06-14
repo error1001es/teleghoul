@@ -2,10 +2,9 @@
 ## Поставь звездочку, пожалуйста!
 ![Работа бота](https://github.com/error1001es/teleghoul/blob/main/screenshots/bot_work.png)<br>
 
-**После установки перейдите в раздел *Запуск*, он находится снизу**
-
 ___
 ## Установка на Андроид
+**После установки перейдите в раздел *Запуск*, он находится снизу**
 Скачиваем приложение [Termux](https://play.google.com/store/apps/details?id=com.termux) в Play Market<br>
 Открываем и пишем команды снизу поочерёдно<br>
 
@@ -28,6 +27,7 @@ ___
 
 ___
 ## Установка на Пк
+**После установки перейдите в раздел *Запуск*, он находится снизу**
 Скачиваем [git](https://git-scm.com/downloads) и [python](https://www.python.org/downloads/)<br>
 **При установке Python обязательно ставим галочку `Add to PATH`**<br>
 
