@@ -6,7 +6,6 @@ https://www.donationalerts.com/r/ponyal
 
 **Помощь с установкой [тут](#помощь)**
 
-___
 ![Работа бота](https://github.com/error1001es/teleghoul/blob/main/screenshots/bot_work.png)<br>
 
 ___
