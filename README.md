@@ -15,7 +15,7 @@
 	pip install pyrogram
 *Клонируем репозиторий*
 
-	git clone https://github.com/error1001es/ghoul-telegram.git
+	git clone https://github.com/error1001es/teleghoulgit
 
 ___
 ## Установка на Пк
@@ -26,7 +26,7 @@ ___
 	pip install pyrogram
 *Клонируем репозиторий*
 
-	git clone https://github.com/error1001es/ghoul-telegram.git
+	git clone https://github.com/error1001es/teleghoul.git
 ___
 ## Запуск
 	python ghoul-telegram/index.py
