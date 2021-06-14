@@ -30,8 +30,6 @@ ___
 Скачиваем [git](https://git-scm.com/downloads) и [python](https://www.python.org/downloads/)<br>
 **При установке Python обязательно ставим галочку `Add to PATH`**<br>
 
-#### Для копирования команды нажмите на неё
-
 *Устанавливаем pyrogram*
 
 	pip install pyrogram
