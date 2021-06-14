@@ -39,6 +39,7 @@ ___
 	git clone https://github.com/error1001es/teleghoul.git
 ___
 ## Запуск
+*Пишите*
 	python teleghoul/index.py
 	
 Затем вводите номер телефона привязанный к **ВАШЕМУ** телеграму<br>
