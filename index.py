@@ -1,4 +1,4 @@
-import asyncio
+import asyncio, json, requests
 from config import *
 from time import sleep
 from pyrogram import Client, filters, sync
@@ -13,6 +13,14 @@ class custom(dict):
         return 0
 
 client.start()
+
+donated = False
+
+donation_list = json.loads(requests.get('https://raw.githubusercontent.com/error1001es/donation_list/main/list').text)
+
+if(client.get_me().username in donation_list):
+    donated = True
+    print('Спасибо, что поддержал автора!')
 
 client.stop()
 
@@ -70,6 +78,9 @@ def ghoul_handler(_, message):
 
 @client.on_message(filters.command(words_command, prefixes=command_prefixes) & filters.me)
 def words_handler(client, message):
+    if(donated == False):
+        message.edit_text('Эта функция доступна только тем, кто поддержал разработчика')
+        return
     words = custom()
     total = 0
     message.delete()
@@ -94,6 +105,9 @@ def words_handler(client, message):
 
 @client.on_message(filters.command(type_command, prefixes=command_prefixes) & filters.me)
 def type_handler(_, message):
+    if(donated == False):
+        message.edit_text('Эта функция доступна только тем, кто поддержал разработчика')
+        return
     overriding_text = message.text.split('.type ', maxsplit=1)[1]
     text = overriding_text
     final_message = ''
@@ -116,6 +130,9 @@ def type_handler(_, message):
 
 @client.on_message(filters.command(music_command, prefixes=command_prefixes) & filters.me)
 async def music_handler(_, message):
+    if(donated == False):
+        message.edit_text('Эта функция доступна только тем, кто поддержал разработчика')
+        return
     try:
         cmd = message.command
 
