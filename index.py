@@ -19,8 +19,8 @@ client.stop()
 print('Бот запущен, теперь ты - Гуль')
 
 
-@client.on_message(filters.command('ghoul-spam', prefixes=['/', '!', '.']) & filters.me)
-def ghoul_handler(client, message):
+@client.on_message(filters.command(ghoul_spam_command, prefixes=command_prefixes) & filters.me)
+def ghoul_spam_handler(client, message):
     i = 1000
     while i > 0:
         try:
@@ -35,8 +35,8 @@ def ghoul_handler(client, message):
         client.send_message(message.chat.id, end_message)
 
 
-@client.on_message(filters.command('ghoul-c', prefixes=['/', '!', '.']) & filters.me)
-def ghoul_handler(client, message):
+@client.on_message(filters.command(ghoul_table_command, prefixes=command_prefixes) & filters.me)
+def ghoul_table_handler(client, message):
     i = 1000
     while i > 62:
         try:
@@ -53,7 +53,7 @@ def ghoul_handler(client, message):
     if(end_message != ''):
         client.send_message(message.chat.id, end_message)
 
-@client.on_message(filters.command('ghoul', prefixes=['/', '!', '.']) & filters.me)
+@client.on_message(filters.command(ghoul_command, prefixes=command_prefixes) & filters.me)
 def ghoul_handler(_, message):
     i = 1000
     while i > 0:
@@ -68,7 +68,7 @@ def ghoul_handler(_, message):
         message.edit_text(end_message)
 
 
-@client.on_message(filters.command('words', prefixes=['/', '!', '.']) & filters.me)
+@client.on_message(filters.command(words_command, prefixes=command_prefixes) & filters.me)
 def words_handler(client, message):
     words = custom()
     total = 0
@@ -92,7 +92,7 @@ def words_handler(client, message):
     progress.edit_text(out, parse_mode = None)
 
 
-@client.on_message(filters.command('type', prefixes=['/', '!', '.']) & filters.me)
+@client.on_message(filters.command(type_command, prefixes=command_prefixes) & filters.me)
 def type_handler(_, message):
     overriding_text = message.text.split('.type ', maxsplit=1)[1]
     text = overriding_text
@@ -114,7 +114,7 @@ def type_handler(_, message):
             sleep(e.x)                    
 
 
-@client.on_message(filters.command('music', prefixes=['/', '!', '.']) & filters.me)
+@client.on_message(filters.command(music_command, prefixes=command_prefixes) & filters.me)
 async def music_handler(_, message):
     try:
         cmd = message.command
