@@ -78,6 +78,7 @@ ___
 Тинькофф: 5536913879572820<br>
 [Мой Киви](https://donate.qiwi.com/payin/4sadly)<br>
 [Сервис донатов](https://donate.stream/4sadly)
+https://www.donationalerts.com/r/ponyal
 
 ___
 ## Помощь
