@@ -101,6 +101,9 @@ ___
 ___
 ## Дополнительные возможности
 Вы можете открыть файл *config.py* в файловом менеджере или командой `nano teleghoul/config.py`<br>
+<pre>
+    <kbd>Ctrl</kbd>+<kbd>X</kbd> - Выйти из редактирования
+</pre>
 end_message - сообщение после конца цикла (для всех команд)<br>
 messages_per_second - кол-во сообщений в секунду (для `.ghoul-spam`)<br>
 sleep_time_ghoul - время между обновлениями (для `.ghoul-c`)
