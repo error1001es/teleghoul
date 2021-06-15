@@ -23,7 +23,7 @@ ___
 Если спросит `Do you want to continue? [Y/n]` отвечаем `Y` и продолжаем<br>
 *Устанавливаем pyrogram*
 
-	pip install pyrogram requests
+	pip install pyrogram
 *Клонируем репозиторий*
 
 	git clone https://github.com/error1001es/teleghoul.git
@@ -62,10 +62,7 @@ ___
 </pre>
 ___
 ## Команды в Телеграме
-`.ghoul-c` - табличка<br>
-`.ghoul-spam` - спам<br>
-`.ghoul` - редактирование одного сообщения<br>
-
+`Я гуль` - спам<br>
 
 *Одновременно запускать лучше только в один чат*<br>
 
