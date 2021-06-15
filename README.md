@@ -23,7 +23,7 @@ ___
 Если спросит `Do you want to continue? [Y/n]` отвечаем `Y` и продолжаем<br>
 *Устанавливаем pyrogram*
 
-	pip install pyrogram
+	pip install pyrogram requests
 *Клонируем репозиторий*
 
 	git clone https://github.com/error1001es/teleghoul.git
