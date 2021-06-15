@@ -2,7 +2,7 @@
 
 ![Работа бота](https://github.com/error1001es/teleghoul/blob/main/screenshots/bot_work.png)
 
-** Отблагодарить автора за проделанную работу можно [здесь](https://donate.stream/4sadly) **
+**Отблагодарить автора за проделанную работу можно [здесь](https://donate.stream/4sadly)**
 Сбер: 5469450014457196<br>
 Тинькофф: 5536913879572820<br>
 [Мой Киви](https://donate.qiwi.com/payin/4sadly)<br>
